@@ -4,7 +4,7 @@ class Traylinx < Formula
   desc "CLI for the Traylinx Agent Network"
   homepage "https://traylinx.com"
   url "https://files.pythonhosted.org/packages/source/t/traylinx-cli/traylinx_cli-0.2.1.tar.gz"
-  sha256 "PLACEHOLDER_SHA256_WILL_BE_UPDATED_ON_PYPI_RELEASE"
+  sha256 "f7bd1e5dbbeddadb09750418751d4fd343dcdc4feb09df44095323152b4f0c2a"
   license "MIT"
 
   depends_on "python@3.12"
