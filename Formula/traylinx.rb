@@ -41,9 +41,12 @@ class Traylinx < Formula
 
   def install
     virtualenv_install_with_resources
+    # Create tx alias as symlink
+    bin.install_symlink "traylinx" => "tx"
   end
 
   test do
     assert_match "traylinx", shell_output("#{bin}/traylinx --version")
+    assert_match "traylinx", shell_output("#{bin}/tx --version")
   end
 end
